@@ -1,29 +1,34 @@
+/* 统一的默认字体颜色 */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4; /* 添加背景颜色以便更好的视觉对比 */
+    background-color: #f4f4f4; /* 背景颜色 */
+    color: #333; /* 设置正文文本颜色为灰黑色 */
 }
 
+/* 容器样式 */
 .container {
     width: 100%;
-    max-width: 1200px; /* 控制最大宽度以实现居中和留白 */
-    margin: 0 auto; /* 自动外边距确保居中 */
-    background-color: white; /* 为容器设置白色背景 */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 添加轻微阴影以增强层次感 */
-    padding: 20px; /* 内边距 */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
 }
 
+/* 页眉和页脚样式 */
 header, footer {
-    background-color: #003366; /* 深蓝色 */
+    background-color: #003366;
     color: white;
     text-align: center;
-    padding: 10px 0; /* 调整内边距 */
+    padding: 10px 0;
 }
 
+/* 导航栏样式 */
 nav {
-    background: #004080; /* 更深的蓝色 */
+    background: #004080;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -50,46 +55,39 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
-section {
-    margin-top: 20px; /* 调整上边距 */
-}
-
-h1 {
-    color: white; /* 仅将 h1 标题设置为白色 */
-}
-
-h2 {
-    color: black; /* 设置 h2 标题为黑色 */
-}
-footer {
-    font-size: 0.8em;
-    padding: 10px 0;
-}
-#home img {
-    max-width: 30%;  /* 使图片最大宽度为容器的100% */
-    height: auto;     /* 保持图片的原始纵横比 */
-}
-#home, #introduction, #training-materials {
-    background-color: #f8f9fa;  /* 添加浅灰色背景以增强区块的视觉隔离 */
-    padding: 20px;  /* 增加填充以创建更多空间感 */
-    border-radius: 5px; /* 添加边框半径 */
-}
-
+/* 标题颜色设置 */
 #home h3, #introduction h3, #training-materials h3,
 #home h4, #introduction h4, #training-materials h4 {
     color: #0056b3;  /* 为标题添加深蓝色 */
 }
 
-
-#home,#introduction, #training-materials ul {
-    padding-left: 20px;  /* 增加内填充 */
+/* 设置正文文本颜色为灰黑色 */
+p, a, li {
+    color: #333; /* 设置正文文本颜色为灰黑色 */
 }
 
-#home,#introduction, #training-materials li {
-    margin-bottom: 10px; /* 增加列表项之间的间距 */
+/* 图片样式 */
+#home img {
+    max-width: 100%;
+    height: auto;
 }
 
+#home, #introduction, #training-materials {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#home, #introduction, #training-materials ul {
+    padding-left: 20px;
+}
+
+#home, #introduction, #training-materials li {
+    margin-bottom: 10px;
+}
+
+/* 图片居中 */
 .img-fluid {
     display: block;
-    margin: 20px auto 0; /* 图片居中显示并在顶部添加边距 */
+    margin: 20px auto 0;
 }
