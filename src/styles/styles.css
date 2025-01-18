@@ -49,7 +49,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: #FFD700; /* 金色，提高与深蓝色背景的对比 */
+    color: white; /* 修改为白色以提高对比度 */
 }
 
 footer {
