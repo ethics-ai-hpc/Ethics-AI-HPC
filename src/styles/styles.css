@@ -61,11 +61,33 @@ h1 {
 h2 {
     color: black; /* 设置 h2 标题为黑色 */
 }
+footer {
+    font-size: 0.8em;
+    padding: 10px 0;
+}
 #home img {
     max-width: 30%;  /* 使图片最大宽度为容器的100% */
     height: auto;     /* 保持图片的原始纵横比 */
 }
-footer {
-    font-size: 0.8em;
-    padding: 10px 0;
+#home {
+    background-color: #f8f9fa;  /* 添加浅灰色背景以增强区块的视觉隔离 */
+    padding: 20px;  /* 增加填充以创建更多空间感 */
+    border-radius: 5px; /* 添加边框半径 */
+}
+
+#home h3, #home h4 {
+    color: #0056b3;  /* 为标题添加深蓝色 */
+}
+
+#home ul {
+    padding-left: 20px;  /* 增加内填充 */
+}
+
+#home li {
+    margin-bottom: 10px; /* 增加列表项之间的间距 */
+}
+
+.img-fluid {
+    display: block;
+    margin: 20px auto 0; /* 图片居中显示并在顶部添加边距 */
 }
