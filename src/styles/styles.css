@@ -69,21 +69,21 @@ footer {
     max-width: 30%;  /* 使图片最大宽度为容器的100% */
     height: auto;     /* 保持图片的原始纵横比 */
 }
-#home {
+#home, #introduction, #training-materials {
     background-color: #f8f9fa;  /* 添加浅灰色背景以增强区块的视觉隔离 */
     padding: 20px;  /* 增加填充以创建更多空间感 */
     border-radius: 5px; /* 添加边框半径 */
 }
 
-#home h3, #home h4 {
+#home,#introduction, #training-materials h3, #home,#introduction, #training-materials h4 {
     color: #0056b3;  /* 为标题添加深蓝色 */
 }
 
-#home ul {
+#home,#introduction, #training-materials ul {
     padding-left: 20px;  /* 增加内填充 */
 }
 
-#home li {
+#home,#introduction, #training-materials li {
     margin-bottom: 10px; /* 增加列表项之间的间距 */
 }
 
