@@ -75,9 +75,11 @@ footer {
     border-radius: 5px; /* 添加边框半径 */
 }
 
-#home,#introduction, #training-materials h3, #home,#introduction, #training-materials h4 {
+#home h3, #introduction h3, #training-materials h3,
+#home h4, #introduction h4, #training-materials h4 {
     color: #0056b3;  /* 为标题添加深蓝色 */
 }
+
 
 #home,#introduction, #training-materials ul {
     padding-left: 20px;  /* 增加内填充 */
