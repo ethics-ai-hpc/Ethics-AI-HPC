@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Initially display the home section and hide others
-    hideAllSections();
-    document.getElementById('home').style.display = 'block'; // Default display the 'home' section
+    hideAllSections(); // Hide all sections first
+    document.getElementById('home').style.display = 'block'; // Display the home section initially
+
 });
