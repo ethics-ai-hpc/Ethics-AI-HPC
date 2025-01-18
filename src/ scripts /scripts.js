@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('nav .navbar-nav a'); // Select all anchor tags inside the navbar
     const sections = document.querySelectorAll('section'); // Select all sections
@@ -22,6 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initially display the home section and hide others
     hideAllSections();
-    document.getElementById('home').style.display = 'block';
+    document.getElementById('home').style.display = 'block'; // Default display the 'home' section
 });
-</script>
