@@ -61,6 +61,10 @@ h1 {
 h2 {
     color: black; /* 设置 h2 标题为黑色 */
 }
+#home img {
+    max-width: 30%; /* 使图片宽度不超过其容器的宽度 */
+    height: auto;    /* 保持图片的原始纵横比 */
+}
 
 footer {
     font-size: 0.8em;
