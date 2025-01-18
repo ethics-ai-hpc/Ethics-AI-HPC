@@ -4,53 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethics-AI-HPC</title>
-    <link rel="stylesheet" href="src/styles/styles.css">
+    <!-- 引入Bootstrap的CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/styles.css"> <!-- 自定义CSS -->
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Ethics-AI-HPC: Multidisciplinary Research and Education on Big Data</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#training-materials">Training Materials</a></li>
-            </ul>
-        </nav>
-        <section id="home">
-        <p>Welcome to the homepage for interdisciplinary research and education on Ethics, Artificial Intelligence, and High-Performance Computing!</p>
-        <div>
-            <h3>Latest News</h3>
-            <ul>
-                <li>We are excited to announce new NSF funding for our program!</li>
-                <li>Upcoming workshop scheduled on ethical AI applications.</li>
-                <li>Check out our latest research publication on AI and ethics.</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Project Highlights</h3>
-            <ul>
-                <li>New collaborative projects with industry leaders in AI and ethics.</li>
-                <li>Development of new algorithms for data privacy in high-performance computing environments.</li>
-                <li>Engagement with international universities to broaden the scope of our research.</li>
-            </ul>
-            <img src="src/assets/RU.png" alt="Rutgers University">
-        </div>
 
-        </section>
-        <section id="introduction" style="display:none;">
-            <h2>Introduction</h2>
-            <p>This section provides a detailed introduction to the integration of Ethics, AI, and HPC, and their significant impacts on society and technological fields.</p>
-        </section>
-        <section id="training-materials" style="display:none;">
-            <h2>Training Materials</h2>
-            <p>Explore related training materials to learn how to implement and maintain ethical standards in high-performance computing, as well as the ethical applications of artificial intelligence.</p>
-        </section>
-        <footer>
-            <p>&copy; 2025 Ethics-AI-HPC Course Team</p>
-        </footer>
-    </div>
-    <script src="src/scripts/scripts.js"></script>
+<!-- 主容器 -->
+<div class="container">
+    <!-- 页眉 -->
+    <header class="text-center py-5">
+        <h1>Ethics-AI-HPC: Multidisciplinary Research and Education on Big Data</h1>
+        <h3>Part of <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505342" target="_blank">NSF Initiative on Workforce Development for Cyberinfrastructure (CyberTraining)</a></h3>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#training-materials">Training Materials</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主体内容区域 -->
+    <section id="home" class="py-5">
+        <h3>Welcome to the homepage for interdisciplinary research and education on Ethics, Artificial Intelligence, and High-Performance Computing!</h3>
+        
+        <div class="row">
+            <!-- Latest News -->
+            <div class="col-md-6">
+                <h4>Latest News</h4>
+                <ul>
+                    <li>We are excited to announce new NSF funding for our program!</li>
+                    <li>Upcoming workshop scheduled on ethical AI applications.</li>
+                    <li>Check out our latest research publication on AI and ethics.</li>
+                </ul>
+            </div>
+
+            <!-- Project Highlights -->
+            <div class="col-md-6">
+                <h4>Project Highlights</h4>
+                <ul>
+                    <li>New collaborative projects with industry leaders in AI and ethics.</li>
+                    <li>Development of new algorithms for data privacy in high-performance computing environments.</li>
+                    <li>Engagement with international universities to broaden the scope of our research.</li>
+                </ul>
+                <!-- 图片展示 -->
+                <img src="src/assets/RU.png" alt="Rutgers University" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction section -->
+    <section id="introduction" class="py-5" style="display:none;">
+        <h2>Introduction</h2>
+        <p>This section provides a detailed introduction to the integration of Ethics, AI, and HPC, and their significant impacts on society and technological fields.</p>
+    </section>
+
+    <!-- Training Materials section -->
+    <section id="training-materials" class="py-5" style="display:none;">
+        <h2>Training Materials</h2>
+        <p>Explore related training materials to learn how to implement and maintain ethical standards in high-performance computing, as well as the ethical applications of artificial intelligence.</p>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="text-center py-4">
+        <p>&copy; 2025 Ethics-AI-HPC Course Team</p>
+    </footer>
+</div>
+
+<!-- 引入jQuery和Bootstrap的JS文件 -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="src/scripts/scripts.js"></script> <!-- 自定义JavaScript -->
 </body>
 </html>
