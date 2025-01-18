@@ -49,7 +49,7 @@ section {
 }
 
 h1, h2, h3 {
-    color: #003366;
+    color: #FFD700; /* 金色，提高与深蓝色背景的对比 */
 }
 
 footer {
@@ -57,4 +57,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #003366; /* 保持与header颜色一致 */
+    color: white;
 }
