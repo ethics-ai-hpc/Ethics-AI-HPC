@@ -48,7 +48,7 @@ section {
     background: #f4f4f4;
 }
 
-h1, h2, h3 {
+h1 {
     color: white; /* 修改为白色以提高对比度 */
 }
 
