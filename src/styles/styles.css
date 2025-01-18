@@ -3,25 +3,34 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f4f4f4; /* 添加背景颜色以便更好的视觉对比 */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* 控制最大宽度以实现居中和留白 */
+    margin: 0 auto; /* 自动外边距确保居中 */
+    background-color: white; /* 为容器设置白色背景 */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 添加轻微阴影以增强层次感 */
+    padding: 20px; /* 内边距 */
 }
 
 header, footer {
     background-color: #003366; /* 深蓝色 */
     color: white;
-    padding: 1em;
     text-align: center;
+    padding: 10px 0; /* 调整内边距 */
 }
 
 nav {
     background: #004080; /* 更深的蓝色 */
     color: white;
-    padding: 10px 20px;
     text-align: center;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -42,21 +51,18 @@ nav ul li a:hover {
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background: #f4f4f4;
+    margin-top: 20px; /* 调整上边距 */
 }
 
 h1 {
-    color: white; /* 修改为白色以提高对比度 */
+    color: white; /* 仅将 h1 标题设置为白色 */
+}
+
+h2 {
+    color: black; /* 设置 h2 标题为黑色 */
 }
 
 footer {
     font-size: 0.8em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #003366; /* 保持与header颜色一致 */
-    color: white;
+    padding: 10px 0;
 }
