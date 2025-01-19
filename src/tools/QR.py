@@ -13,4 +13,4 @@ qr.add_data(url)
 qr.make(fit=True)
 
 img = qr.make_image(fill='black', back_color='white')
-img.save("../assets/qr_code.png")
+img.save("../../qr_code.png")
