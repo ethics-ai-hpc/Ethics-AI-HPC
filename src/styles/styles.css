@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4; /* 背景颜色 */
+    background-color: #f4f4f4; /* background color */
     color: #333; /* 设置正文文本颜色为灰黑色 */
 }
 
-/* 容器样式 */
+/* container style */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -18,7 +18,7 @@ body {
     padding: 20px;
 }
 
-/* 页眉和页脚样式 */
+/* header and footer style */
 header, footer {
     background-color: #003366;
     color: white;
@@ -86,9 +86,9 @@ nav ul li a:hover {
 }
 
 
-/* 图片样式 */
+/* img style */
 #home img {
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
 }
 
