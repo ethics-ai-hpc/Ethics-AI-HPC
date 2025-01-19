@@ -16,11 +16,15 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetId = this.getAttribute('href').substring(1); // Get the href attribute and remove the #
             hideAllSections(); // Hide all sections
             document.getElementById(targetId).style.display = 'block'; // Display the clicked section
+
+            // 如果点击的是 "Home"，滚动到页面顶部
+            if (targetId === 'home') {
+                window.scrollTo(0, 0);  // 页面滚动到顶部
+            }
         });
     });
 
     // Initially display the home section and hide others
-    hideAllSections(); // Hide all sections first
-    document.getElementById('home').style.display = 'block'; // Display the home section initially
-
+    hideAllSections();
+    document.getElementById('home').style.display = 'block';
 });
