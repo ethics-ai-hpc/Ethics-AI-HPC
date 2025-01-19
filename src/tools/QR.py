@@ -3,7 +3,7 @@ import qrcode
 url = "https://ethics-ai-hpc.github.io/Ethics-AI-HPC/"
 
 qr = qrcode.QRCode(
-    version=20,  
+    version=10,  
     error_correction=qrcode.constants.ERROR_CORRECT_L,  
     box_size=10,  
     border=4,  
