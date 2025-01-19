@@ -27,4 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initially display the home section and hide others
     hideAllSections();
     document.getElementById('home').style.display = 'block';
+
+    // 如果页面已显示了其他部分，点击“Home”时，应该显示并滚动到顶部
+    document.querySelector('a[href="#home"]').addEventListener('click', function() {
+        if (document.getElementById('home').style.display !== 'block') {
+            hideAllSections();
+            document.getElementById('home').style.display = 'block';
+        }
+        window.scrollTo(0, 0);  // 滚动到顶部
+    });
 });
