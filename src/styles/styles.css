@@ -56,32 +56,32 @@ nav ul li a:hover {
 }
 
 /* 统一设置 #home, #introduction, #training-materials 部分的共同样式 */
-#home, #introduction, #training-materials,#schedule{
+#home, #introduction, #training-materials,#schedule,#organizers{
     background-color: #f8f9fa;  /* 浅灰色背景 */
     padding: 20px;               /* 内边距 */
     border-radius: 5px;          /* 圆角效果 */
 }
 
 /* 统一设置 h3 和 h4 标题的颜色 */
-#home h3, #introduction h3, #training-materials h3,#schedule h3,
-#home h4, #introduction h4, #training-materials h4,#schedule h4 {
+#home h3, #introduction h3, #training-materials h3,#schedule h3,#organizers h3,
+#home h4, #introduction h4, #training-materials h4,#schedule h4 ,#organizers h4{
     color: #0056b3;  /* 深蓝色 */
 }
 
 /* 统一设置列表的内边距 */
-#home ul, #introduction ul, #training-materials ul,#schedule ul {
+#home ul, #introduction ul, #training-materials ul,#schedule ul ,#organizers ul{
     padding-left: 20px;  /* 左侧内边距 */
 }
 
 /* 统一设置列表项之间的间距 */
-#home li, #introduction li, #training-materials li,#schedule li {
+#home li, #introduction li, #training-materials li,#schedule li,#organizers li {
     margin-bottom: 10px; /* 列表项之间的间距 */
 }
 
 /* 统一设置段落、链接和列表的文本颜色为灰黑色 */
-#home p, #introduction p, #training-materials p,#schedule p,
-#home a, #introduction a, #training-materials a,#schedule a,
-#home li, #introduction li, #training-materials li,#schedule li {
+#home p, #introduction p, #training-materials p,#schedule p,#organizers p,
+#home a, #introduction a, #training-materials a,#schedule a,#organizers a,
+#home li, #introduction li, #training-materials li,#schedule li,#organizers li {
     color: #333;  /* 深灰色 */
 }
 
